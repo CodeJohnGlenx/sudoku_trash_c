@@ -16,6 +16,9 @@ void average(void)
             average();
 
         input_data:
+            system("cls");
+            print_cells();
+            printf("%d - Input index:  %d\n", count + 1, index_);
             printf("%d - Input data:  ", count + 1);
             scanf("%d", &data);
             for (i = 1; i <= 9; i++)
